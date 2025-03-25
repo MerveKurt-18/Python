@@ -14,4 +14,4 @@ sonuc1 = list(filter(lambda x: x>=18, yaslar))
 print(sonuc1)  
 
 #-----------------------
-sayilar 
+
