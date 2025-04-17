@@ -14,3 +14,9 @@ except Exception as e:
     print(e)
 else:
     print("Bilgiler başarıyla girildi")
+
+# Hata fırlatma: istemediğimiz bir durum gerçekleştiğinde hata almak. bunu da raise komutuyla yapıyoruz.
+
+#olabilecek hataları denemek için yapıyoruz..
+
+#test commit
