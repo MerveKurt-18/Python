@@ -26,3 +26,5 @@ sonuc6 = user
 print(sonuc6)
 sonuc7 = ortalama(200,300)
 print(sonuc7)
+
+from module import * #bunu dediğimizde modulenin içindeki herşeye ulaşıyoruz.
