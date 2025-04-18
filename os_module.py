@@ -21,12 +21,17 @@ print(x)
 #os.rmdir("ustklasor")---> içiçe olmayan tek olan klasörü silmek için
 #os.removedirs("yeniklasor/deneme")--->içiçe olan klasörü tek seferde silmek için kullanılır
 
-
-
-sonuc = os.listdir()
-print(sonuc) #---> Python dosyamızdaki klasörleri listeledik
-"""
 #Listeleme
-sonuc = os.listdir("C:\\) ---> C nin içerisindekileri listeledik
+#sonuc = os.listdir()
+#print(sonuc) #---> Python dosyamızdaki klasörleri listeledik
+#sonuc = os.listdir("C:\\) ---> C nin içerisindekileri listeledik
 
-"""
+#Bütün .py dosyalarını listeledik
+for dosya in os.listdir():
+    if dosya.endswith(".py"):
+        print(dosya)
+
+sonuc = os.stat("errors.py") # errors.py dosyası ile ilgili bilgileri aldık
+print(sonuc)
+#x = sonuc.st_size/1024 --->errors.py dosyasının ne kadar yer kapladığına baktık.yani boyutuna baktık
+#1024 e böldük çünkü kilowatt cinsinden aldık
