@@ -1,17 +1,18 @@
 
 # Class
-# Class ın isminin illk harfi büyük olur.
+# Class ın isminin ilk harfi büyük olur.
 
 class Arac:
     #method oluşturabiliriz.
     #attribute oluşturabiliriz.
+    #Attribute: Bir nesnenin ya da sınıfın sahip olduğu veri/özellik.
     pass
 
 
 # Instance, Object
 arac1 = Arac()
 arac2 = Arac()
-
+arac3 = Arac()
 class Products:
     pass
 
